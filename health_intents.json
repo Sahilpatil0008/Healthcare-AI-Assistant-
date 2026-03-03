@@ -1,0 +1,31 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hello",
+        "hi",
+        "good morning",
+        "good evening",
+        "hey",
+        "how are you"
+      ],
+      "responses": [
+        "Hello! I am your Healthcare Assistant. How can I support your health today?"
+      ]
+    },
+    {
+      "tag": "stress",
+      "patterns": [
+        "I feel stressed",
+        "anxiety problem",
+        "I am anxious",
+        "mental pressure",
+        "I feel nervous"
+      ],
+      "responses": [
+        "Stress and anxiety can affect both your mental and physical health. Try deep breathing exercises, maintain a regular sleep schedule, reduce caffeine intake, and talk to someone you trust. If symptoms persist, consult a healthcare professional."
+      ]
+    }
+  ]
+}
